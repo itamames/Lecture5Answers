@@ -2,6 +2,7 @@
 
 
 2.
+```java
 
         // Inserts the given date into the list in chronological order.
         // Precondition: list is already sorted in chronological order.   
@@ -18,10 +19,10 @@
 		// (the add method will shift over the dates to make room)
                 list.add(index, date);
         }  
-
+```
 
 3.
-
+```java
        public boolean add(T newEntry) {
            
                 // Search for index for insert point in array
@@ -44,4 +45,5 @@
                 dataArray[index] = newEntry;
                 numData++;
                 return true;
-        }                
+        }      
+```
